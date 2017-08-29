@@ -1,6 +1,6 @@
 # MSP430 CCS Examples
 ***
-Programación de microcontroladores de Texas Instrumetns usando el MSP430 LaunchPad y el Code Composer Studio, si deseas saber mas a detalle de cada uno de los codigos aqui mostrados te invito a visitar [**E&R by MrChuckuee**] (http://mrchunckuee.blogspot.mx/p/msp430-lauchpad-y-ccs.html)
+Programación de microcontroladores de Texas Instrumetns usando el MSP430 LaunchPad y el Code Composer Studio, si deseas saber mas a detalle de cada uno de los codigos aqui mostrados te invito a visitar [**E&R by MrChuckuee**](http://mrchunckuee.blogspot.mx/p/msp430-lauchpad-y-ccs.html)
 ***
 **Listado de material disponible:**
 - MSP_004: LED Intermitente 
