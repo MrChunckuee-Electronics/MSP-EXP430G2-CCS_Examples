@@ -67,13 +67,13 @@
 
 /*******************************************************************************
  *
- *      MSP_008: Uso basico de PWM
+ *      MSP-EXP430G2_008: Uso basico de PWM
  *
  *******************************************************************************
  * FileName:        main.c
  * Processor:       MSP430G2231
  * Complier:        CCS 7.2.0.00013
- * Author:          Pedro Sánchez Ramírez (MrChunckuee)
+ * Author:          Pedro SÃ¡nchez RamÃ­rez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Para este ejemplo obtenedremos un PWM en P1.6 (LED_GREEN),
