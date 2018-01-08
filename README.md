@@ -7,6 +7,7 @@ Programación de microcontroladores de Texas Instrumetns usando el MSP430 Launch
 - MSP_005: On-Off LEDs con botón 
 - MSP_006: Manejo de LCD 16x2 - Mostrar texto 
 - MSP_007: Manejo de LCD 16x2 - Mostrar variable tipo int
+- MSP_008: Uso básico de PWM
 
 ***
 Puedes seguirme en:
