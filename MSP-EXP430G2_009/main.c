@@ -73,7 +73,7 @@
  * FileName:        main.c
  * Processor:       MSP430G2231
  * Complier:        CCS 7.2.0.00013
- * Author:          Pedro Sánchez Ramírez (MrChunckuee)
+ * Author:          Pedro SÃ¡nchez RamÃ­rez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Para este ejemplo obtenedremos un PWM en P1.6 (LED_GREEN),
@@ -102,6 +102,7 @@ int main(void){
 	CCR1 = DutyPWM;             // CCR1 PWM duty cycle
 	TACTL = TASSEL_2 + MC_1;    // SMCLK, up mode
 	//_BIS_SR(CPUOFF);            // Enter LPM0
+	
 	while(1){
 	    for(DutyPWM=10; DutyPWM<190; DutyPWM++){
 	        CCR1 = DutyPWM;
