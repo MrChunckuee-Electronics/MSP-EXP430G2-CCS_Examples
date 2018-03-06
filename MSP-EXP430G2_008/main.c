@@ -6,15 +6,15 @@
  * FileName:        lcd.c
  * Processor:       MSP430G2231 (Puede ser otro)
  * Complier:        CCS 7.2.0.00013
- * Author:          Pedro Sánchez Ramírez (MrChunckuee)
+ * Author:          Pedro SÃ¡nchez RamÃ­rez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
- * Description:		Considerar la distribucion de pines especificada en lcd.h
+ * Description:	    Considerar la distribucion de pines especificada en lcd.h
  * 					Ejemplo para mostar  variables tipo int
  *******************************************************************************
  * Historial del firmware
  * Rev.		Date		Comment
- * 	v0.00   21/10/2015  Creación del firmware
+ * 	v0.00   21/10/2015  CreaciÃ³n del firmware
  * 	v0.01   29/11/2017  Se compilo con CCS 7.2.0.00013
  ******************************************************************************/
 #include <msp430g2231.h>
