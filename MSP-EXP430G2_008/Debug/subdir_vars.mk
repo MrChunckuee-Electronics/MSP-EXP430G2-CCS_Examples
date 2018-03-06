@@ -9,21 +9,33 @@ CMD_SRCS += \
 ../lnk_msp430g2231.cmd 
 
 C_SRCS += \
-../main.c 
+../lcd.c \
+../main.c \
+../special.c 
 
 C_DEPS += \
-./main.d 
+./lcd.d \
+./main.d \
+./special.d 
 
 OBJS += \
-./main.obj 
+./lcd.obj \
+./main.obj \
+./special.obj 
 
 OBJS__QUOTED += \
-"main.obj" 
+"lcd.obj" \
+"main.obj" \
+"special.obj" 
 
 C_DEPS__QUOTED += \
-"main.d" 
+"lcd.d" \
+"main.d" \
+"special.d" 
 
 C_SRCS__QUOTED += \
-"../main.c" 
+"../lcd.c" \
+"../main.c" \
+"../special.c" 
 
 

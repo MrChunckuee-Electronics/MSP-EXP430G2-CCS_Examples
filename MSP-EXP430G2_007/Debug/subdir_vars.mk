@@ -10,32 +10,26 @@ CMD_SRCS += \
 
 C_SRCS += \
 ../lcd.c \
-../main.c \
-../special.c 
+../main.c 
 
 C_DEPS += \
 ./lcd.d \
-./main.d \
-./special.d 
+./main.d 
 
 OBJS += \
 ./lcd.obj \
-./main.obj \
-./special.obj 
+./main.obj 
 
 OBJS__QUOTED += \
 "lcd.obj" \
-"main.obj" \
-"special.obj" 
+"main.obj" 
 
 C_DEPS__QUOTED += \
 "lcd.d" \
-"main.d" \
-"special.d" 
+"main.d" 
 
 C_SRCS__QUOTED += \
 "../lcd.c" \
-"../main.c" \
-"../special.c" 
+"../main.c" 
 
 

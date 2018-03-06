@@ -10,7 +10,6 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
-"./lcd.obj" \
 "./main.obj" \
 "../lnk_msp430g2231.cmd" \
 $(GEN_CMDS__FLAG) \
@@ -121,41 +120,41 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-MSP-EXP430G2_006.out \
+MSP-EXP430G2_008.out \
 
 EXE_OUTPUTS__QUOTED += \
-"MSP-EXP430G2_006.out" \
+"MSP-EXP430G2_008.out" \
 
 BIN_OUTPUTS += \
-MSP-EXP430G2_006.hex \
+MSP-EXP430G2_008.hex \
 
 BIN_OUTPUTS__QUOTED += \
-"MSP-EXP430G2_006.hex" \
+"MSP-EXP430G2_008.hex" \
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "MSP-EXP430G2_006.out"
+	@$(MAKE) --no-print-directory -Onone "MSP-EXP430G2_008.out"
 
 # Tool invocations
-MSP-EXP430G2_006.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+MSP-EXP430G2_008.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MSP430 Linker'
-	"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2231__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP-EXP430G2_006.map" --heap_size=0 --stack_size=50 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP-EXP430G2_006_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP-EXP430G2_006.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2231__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"MSP-EXP430G2_008.map" --heap_size=0 --stack_size=50 -i"C:/ti/ccsv7/ccs_base/msp430/include" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="MSP-EXP430G2_008_linkInfo.xml" --use_hw_mpy=none --rom_model -o "MSP-EXP430G2_008.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-MSP-EXP430G2_006.hex: $(EXE_OUTPUTS)
+MSP-EXP430G2_008.hex: $(EXE_OUTPUTS)
 	@echo 'Invoking: MSP430 Hex Utility'
-	"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/hex430" --memwidth=8 --romwidth=8 -o "MSP-EXP430G2_006.hex" $(EXE_OUTPUTS__QUOTED)
+	"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/hex430" --memwidth=8 --romwidth=8 -o "MSP-EXP430G2_008.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "lcd.obj" "main.obj" 
-	-$(RM) "lcd.d" "main.d" 
+	-$(RM) "main.obj" 
+	-$(RM) "main.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
