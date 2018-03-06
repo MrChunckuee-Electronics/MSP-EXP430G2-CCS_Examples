@@ -5,9 +5,9 @@ Programación de microcontroladores de Texas Instrumetns usando el MSP430 Launch
 **Listado de material disponible:**
 - MSP-EXP430G2_004: LED Intermitente 
 - MSP-EXP430G2_005: On-Off LEDs con botón 
-- MSP-EXP430G2_006: Manejo de LCD 16x2 - Mostrar texto 
-- MSP-EXP430G2_007: Manejo de LCD 16x2 - Mostrar variable tipo int
-- MSP-EXP430G2_008: Uso básico de PWM
+- MSP-EXP430G2_007: Manejo de LCD 16x2 - Mostrar texto 
+- MSP-EXP430G2_008: Manejo de LCD 16x2 - Mostrar variable tipo int
+- MSP-EXP430G2_009: Uso básico de PWM
 
 ***
 Puedes seguirme en:
