@@ -10,7 +10,7 @@
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:	    Considerar la distribucion de pines especificada en lcd.h
- * 					Ejemplo para mostar  variables tipo int
+ * 		    Ejemplo para mostar  variables tipo int
  *******************************************************************************
  * Historial del firmware
  * Rev.		Date		Comment
