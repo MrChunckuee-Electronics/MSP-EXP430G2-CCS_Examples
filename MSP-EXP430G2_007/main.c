@@ -10,7 +10,7 @@
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Considerar la distribucion de pines especificada en lcd.h
- * 					Forma de mostar textos simples en el LCD
+ * 		    Forma de mostar textos simples en el LCD
  *******************************************************************************
  * Historial del firmware
  * Rev.		Date		Comment
